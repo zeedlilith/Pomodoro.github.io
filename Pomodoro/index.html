@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pomodoro</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h3>Pomodoro</h3>
+        </nav>
+    </header>
+    <main>
+        <section class="container-clock" >
+            <div class="buttonsOptions">
+                <button class="btn-pomodoro" id="pomodoro">Pomodoro</button>
+                <button class="btn-breack" id="breack">Breack</button>
+            </div>
+            <div class="timer-string">
+                <h2 id="Clock">25:00</h2>
+            </div>
+            <div >
+                <button class="btnStart" id="StartBtn">Start</button>
+            </div>
+        </section>
+        <section class="container-task">
+            <h4>Tasks</h4>
+            <div class="add-tasks">
+                <input type="text" name="" id="task" placeholder="Task">
+                <button id="btnAddTask" >Add Task</button>
+            </div>
+            <div id="tasks" class="tasks">
+            </div>
+        </section>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
